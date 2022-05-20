@@ -1,10 +1,10 @@
-package com.bee.datastruct.array.accumulatesum;
+package com.bee.datastruct.array.prefixsum;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://leetcode.cn/problems/QTMn0o/
+ * 剑指Offer 010:https://leetcode.cn/problems/QTMn0o/
  *
  * @author yangying
  * @version 1.0.0
