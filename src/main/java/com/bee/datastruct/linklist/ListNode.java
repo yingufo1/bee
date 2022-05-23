@@ -9,11 +9,17 @@ package com.bee.datastruct.linklist;
  * 2022/5/16 11:18
  */
 public class ListNode<T> {
-    public T data;
+    public T val;
     public ListNode<T> next;
 
-    public ListNode(T data, ListNode<T> next){
-        this.data = data;
+    public ListNode(T val, ListNode<T> next){
+        this.val = val;
         this.next = next;
+    }
+
+    public ListNode(){}
+
+    public ListNode(T val){
+        this.val = val;
     }
 }
