@@ -22,9 +22,14 @@
     <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="GuiDesigner.Duplicate" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
   <action id="NavBar-selectHome">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
