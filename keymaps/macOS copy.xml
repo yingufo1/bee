@@ -1,0 +1,37 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="GuiDesigner.Duplicate" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SendEOF" />
+  <action id="XDebugger.CopyWatch" />
+</keymap>
