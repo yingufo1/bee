@@ -43,16 +43,16 @@ public class LRUCache<T> {
             return false;
         }
 
-        if (header.data == t) {
+        if (header.val == t) {
             return true;
         }
 
-        while (cur.next != null && cur.next.data != t) {
+        while (cur.next != null && cur.next.val != t) {
             cur = cur.next;
         }
 
         if (cur.next != null) {//已查找到
-            ListNode<T> temp = new ListNode<>(cur.next.data, cur.next.next);
+            ListNode<T> temp = new ListNode<>(cur.next.val, cur.next.next);
             cur.next = cur.next.next;
             temp.next = header;
             header = temp;
@@ -67,7 +67,7 @@ public class LRUCache<T> {
         StringBuilder sb = new StringBuilder();
         ListNode<T> cur = header;
         while (cur != null) {
-            sb.append(cur.data).append(",");
+            sb.append(cur.val).append(",");
             cur = cur.next;
         }
         return sb.toString();
