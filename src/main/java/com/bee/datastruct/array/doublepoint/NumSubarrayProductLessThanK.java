@@ -1,5 +1,10 @@
 package com.bee.datastruct.array.doublepoint;
 
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * https://leetcode.cn/problems/ZVAVXX/
  *
@@ -30,5 +35,10 @@ public class NumSubarrayProductLessThanK {
         NumSubarrayProductLessThanK numSubarrayProductLessThanK = new NumSubarrayProductLessThanK();
         int count = numSubarrayProductLessThanK.numSubarrayProductLessThanK(new int[] {10, 5, 2, 6}, 100);
         System.out.println(count);
+        AtomicInteger c = new AtomicInteger(2);
+        while (c.compareAndSet(2,1)){
+            Lock lock = new ReentrantLock();
+            lock.lock();
+        }
     }
 }
