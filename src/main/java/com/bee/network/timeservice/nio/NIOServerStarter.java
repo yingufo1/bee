@@ -1,0 +1,1 @@
+package com.bee.network.timeservice.nio;/** * 服务端启动程序 * * @author yangying * @version 1.0 * @since 2022/7/12 **/public class NIOServerStarter {    public static void main(String[] args) {        NIOTimerServer nioTimerServer = new NIOTimerServer(8080);        new Thread(nioTimerServer,"nioTimerServer-thread-%d").start();    }}
