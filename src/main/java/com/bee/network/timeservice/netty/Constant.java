@@ -1,0 +1,1 @@
+package com.bee.network.timeservice.netty;/** * TODO:class description * * @author yangying * @version 1.0 * @since 2022/7/13 **/public class Constant {    public final static String REQ_ORDER = "QUERY TIME ORDER";    public final static String RESP_BAD_ORDER = "BAD ORDER";}
